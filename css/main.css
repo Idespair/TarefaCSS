@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header{
+    background-color: gray;
+    padding:16px 0;
+    color: white;
+}
+
+header li a{
+    color: white;
+    text-decoration: none;
+    margin-left: 16px;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.container {
+    width: 1366;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.articles article a {
+    background-color: green;
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover{
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3{
+    font-size: 24;
+}
+
+section h2{
+    font-size: 32px;
+}
+
+#Esportes {
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+#Esportes .articles article a {
+    background-color: rgba(0, 255, 0, 0.8);
+    color: #000;
+}
+
+#Economy {
+    background-color: gold;
+}
+
+#Economy .articles article a {
+    background-color: orange;
+}
+
+#Tecnologia {
+    background-color: #23238E;
+}
+
+#Tecnologia .articles article a{
+    background-color: #5a5add;
+}
+
+#Politica {
+    background-color: #201a1a;
+}
+
+#Politica .articles article a{
+    background-color: #534c4c;
+}
